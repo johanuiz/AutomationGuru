@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test thread-count="5" name="Test">
+        <parameter name="username" value="mngr541185"></parameter>
+        <parameter name="userPassword" value="hYgateh"></parameter>
+        <parameter name="incorrectUsername" value="mngr5411852"></parameter>
+        <parameter name="incorrectPassword" value="hYgateh2"></parameter>
+                <classes>
+            <class name="com.guru99.tests.LoginTests"/>
+        </classes>
+    </test>
+</suite>
